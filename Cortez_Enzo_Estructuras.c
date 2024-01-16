@@ -9,3 +9,7 @@ struct alumno
     char materia[50];
     float nota;
 };
+
+// Prototipos de las funciones
+void ingresarAlumnos(struct alumno lista[], int n);
+void mostrarAlumnos(struct alumno lista[], int n);
